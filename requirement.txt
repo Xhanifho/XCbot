@@ -1,3 +1,8 @@
-pip install request
-pip install websocket
-pip install thinkter
+# Pastikan install 'websocket-client', bukan 'websocket' sahaja
+pip install websocket-client
+
+# Untuk sambungan API (History & Login)
+pip install requests
+
+# Untuk GUI (Biasanya sudah ada, tapi jika tiada)
+pip install tk
