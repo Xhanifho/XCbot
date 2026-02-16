@@ -1,8 +1,5 @@
-# Pastikan install 'websocket-client', bukan 'websocket' sahaja
+pkg update && pkg upgrade -y pkg install python binutils rust -y
 pip install websocket-client
-
-# Untuk sambungan API (History & Login)
-pip install requests
-
-# Untuk GUI (Biasanya sudah ada, tapi jika tiada)
-pip install tk
+termux-setup-storage
+cd /storage/emulated/0/Download/Telegram
+python Xc.pyc
