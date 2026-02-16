@@ -1,4 +1,5 @@
-pkg update && pkg upgrade -y pkg install python binutils rust -y
+pkg update && pkg upgrade
+pkg install python binutils rust 
 pip install websocket-client
 termux-setup-storage
 cd /storage/emulated/0/Download/Telegram
