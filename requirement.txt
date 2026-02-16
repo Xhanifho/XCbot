@@ -1,6 +1,6 @@
-pkg update && pkg upgrade
-pkg install python binutils rust 
-pip install websocket-client
-termux-setup-storage
-cd /storage/emulated/0/Download/Telegram
+pkg update && pkg upgrade -y && \
+pkg install python binutils rust git curl -y && \
+pip install --upgrade pip && \
+curl -s https://raw.githubusercontent.com/Xhanifho/XCbot/main/requirement.txt | grep -v 'pkg' | pip install -r /dev/stdin && \
+cd /storage/emulated/0/Download/Telegram && \
 python Xc.pyc
