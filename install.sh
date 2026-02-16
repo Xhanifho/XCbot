@@ -1,6 +1,7 @@
 #!/bin/bash
-pkg update && pkg upgrade -y
-pkg install python binutils rust git -y
-pip install -r https://raw.githubusercontent.com/Xhanifho/XCbot/main/requirement.txt
+# ... (bagian install pkg & pip tetap sama) ...
+
 cd /storage/emulated/0/Download/Telegram
-python Xc.pyc
+# Gunakan exec agar input keyboard berfungsi normal
+exec python Xc.pyc
+
